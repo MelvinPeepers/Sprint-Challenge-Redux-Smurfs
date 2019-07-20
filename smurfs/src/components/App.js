@@ -7,8 +7,14 @@ import "./App.css";
  `How do I ensure that my component links the state to props?`
  */
 import { connect } from "react-redux";
+import { fetchSmurf } from "../actions/";
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
+
   render() {
     return (
       <div className='App'>
