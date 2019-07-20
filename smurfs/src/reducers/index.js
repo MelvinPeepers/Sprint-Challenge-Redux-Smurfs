@@ -3,6 +3,7 @@
 */
 
 //  Your initial/default state for this project could *Although does not have to* look a lot like this
+// my instial state
 const initialState = {
   smurfs: [],
   fetchingSmurfs: false,
@@ -12,6 +13,7 @@ const initialState = {
   error: null
 };
 
+// start of my reducer
 const reducer = (state = initialState, action) => {
   switch (action.type) {
   }
